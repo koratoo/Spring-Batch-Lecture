@@ -48,7 +48,6 @@ public class JobInstanceConfiguration {
                         return RepeatStatus.FINISHED;
                     }
                 }).build();
-
     }
 
 }

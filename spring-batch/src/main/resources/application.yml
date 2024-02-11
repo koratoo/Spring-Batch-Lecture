@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: mysql
+  datasource:
+    hikari:
+      jdbc-url:
+      username:
+      password:
+      driver-class-name:
+  batch:
