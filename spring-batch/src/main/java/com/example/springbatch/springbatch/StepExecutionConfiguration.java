@@ -19,7 +19,7 @@ public class StepExecutionConfiguration {
     private final JobBuilderFactory jobBuilderFactory;
     private final StepBuilderFactory stepBuilderFactory;
 
-    @Bean
+//    @Bean
     public Job BatchJob() {
         return this.jobBuilderFactory.get("Job")
                 .start(step1())
@@ -57,9 +57,4 @@ public class StepExecutionConfiguration {
                     return RepeatStatus.FINISHED;
                 }).build();
     }
-
-
-
-
-
 }
